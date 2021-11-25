@@ -8,8 +8,9 @@ class Launcher {
         }
         this.pointB = pointB
         this.launcher = Constraint.create(options);
-        // MISS B: la línea pasada decía:  World.add(world, this.sling);
-        World.add(world, this.launcher);
+        ///////////////////////////////////////////
+        // MISS B: no existe "this.sling" en este código :o qué debería de ser? n.n 
+        World.add(world, this.sling);
     }
 
     fly(){
