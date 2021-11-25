@@ -13,7 +13,6 @@ var launcherObject
 var launchForce=100;
 
 
-// MISS B: falta precargar aquí la imagen del boy :D
 
 
 function setup() {
@@ -50,6 +49,9 @@ function draw() {
   background(230);
   textSize(25);
   text("¡Presiona Barra Espaciadora para tener una segunda Oportunidad para Jugar!",50 ,50);
+	
+  ///////////////////////////////////////////
+  // MISS B: se llama aquí a la imagen de boy, pero... ya se precargó?  :o xD
   image(boy ,200,340,200,300);
   
 
